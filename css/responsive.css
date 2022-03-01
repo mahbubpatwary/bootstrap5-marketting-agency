@@ -1,0 +1,308 @@
+
+
+
+/* variabls  */
+
+:root{
+
+    /* background-color  */
+    --bg-black: #090b3c;
+    --bg-white: #fff;
+    --bg-light-white: #fcfcfc;
+    --bg-light-2: #f2f7fa;
+    --bg-dark-green: #0e9d80;
+    --bg-features-1: #fff6d6;
+    --bg-features-2: #ebdcf9;
+    --bg-features-3: #ddf5fc;
+    --bg-features-4: #dcf6e8;
+    --bg-features-5: #f8e4e1;
+    --bg-features-6: #fbffd4;
+
+    /* text color  */
+    --text-black: #000;
+    --text-white: #fff;
+    --text-dark-gray: #4c535c;
+    --text-light-2: #798089;
+    --text-light-3: #5e5e72;
+    --text-light-4: #a0a0a0;
+    --text-dark-green:#12c4a0;
+    --text-orange: #ff5d2a;
+    --text-yelow: #ffc100;
+
+    /* fotns  */
+    --primary-font: Quicksand;
+    --secondary-font: 'Poppins', sans-serif;
+    --normal-font-weight: 400;
+    --blod-font-weight: 700;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 1300px) {
+    
+/* navbar css  */
+.header_wrapper .menu-navbar-nav{
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width: 1200px) {
+    
+
+.header_wrapper .nav-item{
+    margin: 0 5px;
+}
+
+.header_wrapper .learn-more-btn{
+    padding: 12px 10px !important;
+}
+
+.banner_wrapper .banner-title{
+    font-size: 50px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* laptop screen  */
+
+@media (max-width: 1024px) {
+    
+
+.header_wrapper .nav-item .nav-link{
+    font-size: 16px;
+
+}
+
+.about_wrapper .about_title{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+/* tab screen  */
+
+@media (max-width: 991px) {
+    
+
+/* navbar design  */
+
+.header_wrapper .navbar-brand img{
+    width: 180px;
+}
+
+.header_wrapper .navbar-toggler:focus{
+    box-shadow: none;
+}
+.header_wrapper .nav-ul,
+.header_wrapper .menu-navbar-nav {
+    text-align: center;
+}
+
+.header_wrapper .nav-item .nav-link{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.header_wrapper .nav-item:last-child .nav-link{
+    margin-bottom: 20px;
+}
+
+.header_wrapper .learn-more-btn{
+    padding: 12px 29px !important;
+
+}
+.header_wrapper .navbar-collapse{
+    background: var(--bg-white);
+}
+
+
+
+
+/* banner css  */
+
+.banner_wrapper .banner-title{
+   font-size: 36px;
+}
+
+
+
+
+/* about section  */
+
+.about_wrapper .about_number{
+    margin: 20px auto;
+}
+
+
+.about_wrapper .about_title{
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+/* mideum screen  */
+
+@media (max-width: 767px) {
+    
+
+/* banner section design  */
+
+.banner_wrapper {
+    padding: 0 100px;
+
+}
+.banner_wrapper .row{
+    flex-direction: column-reverse;
+
+}
+.banner_wrapper .learn-more-btn-section{
+    justify-content: center;
+}
+
+
+/* pricing  */
+
+.free-trail {
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* large mobile screen  */
+
+@media (max-width: 575px) {
+    
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* mobile screen  */
+
+@media (max-width: 430px) {
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+/* small mobile screen  */
+
+@media (max-width: 360px) {
+
+
+.faq_wrapper .accordion-button{
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
